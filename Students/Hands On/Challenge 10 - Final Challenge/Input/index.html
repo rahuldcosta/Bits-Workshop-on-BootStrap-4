@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/jquery.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+	<script defer src="fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+</head>
+<body>
+
+		<section id="cover">
+			<div class="container-fluid ">
+			  <h1>Welcome to Bootstrap 4</h1>
+								<p id="xyz" >Just like the old Bootstrap, but better. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quibusdam quis, repudiandae reprehenderit doloremque fugiat molestias, corporis voluptas.</p>	
+								<form class="">
+								<div class="">
+									<label for="exampleFormControlInput1">Email address:</label>
+									<input type="email" class="ml-3 " id="exampleFormControlInput1" placeholder="name@example.com">
+								  </div>
+								  <div class="">
+									<label for="exampleFormControlInput1"> Name:</label>
+									<input type="name" class="ml-3 " id="exampleFormControlInput2" placeholder="John Doe">
+								  </div>
+								  </form>
+								<button type="submit" class="btn btn-success mt-3" data-toggle="collapse" data-target="#demo" aria-expanded="false" aria-controls="demo" >okay, go!</button>	
+									
+			</div>
+          </section>
+		  
+		  
+		  <section id="navigationsection">
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			  <!-- Brand -->
+			  <a class="navbar-brand" href="#"><i class="fas fa-user"></i> My Account</a>
+
+			  <!-- Toggler/collapsibe Button -->
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <!-- Navbar links -->
+			  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Profile</a>
+				  </li> 
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Groups</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Settings</a>
+				  </li>
+				  <!-- Dropdown -->
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						Services
+					  </a>
+					  <div class="dropdown-menu">
+						<a class="dropdown-item" href="#">Profile</a>
+						<a class="dropdown-item" href="#">Timeline</a>
+						<a class="dropdown-item" href="#">Chats</a>
+					  </div>
+					</li>
+				</ul>
+			  </div> 
+			  <form class="form-inline d-none d-sm-block" action="/action_page.php">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search">
+						<button class="btn btn-success" type="submit">Search</button>
+					</form>
+			</nav>
+			
+			
+			<nav aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Home</a></li>
+				<li class="breadcrumb-item"><a href="#">Stories</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Todays Top 10 Stories</li>
+			  </ol>
+			</nav>
+			
+			
+			
+			<p>Endeavor bachelor but add eat pleasure doubtful sociable. Age forming covered you entered the examine. Blessing scarcely confined her contempt wondered shy. Dashwoods contented sportsmen at up no convinced cordially affection. Am so continued resembled frankness disposing engrossed dashwoods. Earnest greater on no observe fortune norland. Hunted mrs ham wishes stairs. Continued he as so breakfast shameless. All men drew its post knew. Of talking of calling however civilly wishing resolve. 
+ </p>
+			
+			<div id="demo" class="collapse carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/lady-guitar.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img/banjo.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img/hearthand.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+			<table class="table">
+			  <thead class="thead-dark">
+				<tr>
+				  <th scope="col">#</th>
+				  <th scope="col">First</th>
+				  <th scope="col">Last</th>
+				  <th scope="col">Handle</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">1</th>
+				  <td>Mark</td>
+				  <td>Otto</td>
+				  <td>@mdo</td>
+				</tr>
+				<tr>
+				  <th scope="row">2</th>
+				  <td>Jacob</td>
+				  <td>Thornton</td>
+				  <td>@fat</td>
+				</tr>
+				<tr>
+				  <th scope="row">3</th>
+				  <td>Larry</td>
+				  <td>the Bird</td>
+				  <td>@twitter</td>
+				</tr>
+			  </tbody>
+			</table>
+
+			
+			<div class=" row h-100 justify-content-center align-items-center">
+			<ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item"><a class="page-link" href="#">1</a></li>
+  <li class="page-item active"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+			</div>
+			
+          </section>
+		  <br><br>
+		  
+		  <section id="beautifullayouts">
+		  <hr>
+		  <div class="row">
+			  <div class="col">
+				<div class="media">
+				  <img class="mr-3" src="img/badge_bootstrap.jpg" alt="Generic placeholder image">
+				  <div class="media-body">
+					<h5 class="mt-0">Media heading</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			  </div>
+			  <div class="col">
+			  <div class="media">
+				  <img class="mr-3 rounded-circle" src="img/badge_css3.jpg" alt="Generic placeholder image">
+				  <div class="media-body">
+					<h5 class="mt-0">Media heading</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			  </div>
+			  <div class="col">
+			  <div class="media">
+				  <img class="mr-3" src="img/badge_html5.jpg" alt="Generic placeholder image">
+				  <div class="media-body">
+					<h5 class="mt-0">Media heading</h5>
+					Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				  </div>
+				</div>
+			  
+			  </div>
+		  </div>
+		  
+		  </section>
+		  <br> <br> <br>
+		  <section id="bs4content">
+		  <div class="row">
+		  <div class="col"> 
+			  <div class="list-group">
+				  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start ">
+					<div class="d-flex w-100 justify-content-between">
+					  <h5 class="mb-1">List group item heading</h5>
+					  <small>3 days ago</small>
+					</div>
+					<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					<small>Donec id elit non mi porta.</small>
+				  </a>
+				  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+					<div class="d-flex w-100 justify-content-between">
+					  <h5 class="mb-1">List group item heading</h5>
+					  <small class="text-muted">3 days ago</small>
+					</div>
+					<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					<small class="text-muted">Donec id elit non mi porta.</small>
+				  </a>
+				  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+					<div class="d-flex w-100 justify-content-between">
+					  <h5 class="mb-1">List group item heading</h5>
+					  <small class="text-muted">3 days ago</small>
+					</div>
+					<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+					<small class="text-muted">Donec id elit non mi porta.</small>
+				  </a>
+			 </div>
+		  
+		  <br> <br>
+              <div id="modal1" class="modal " tabindex="-1" role="dialog">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content ">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <script>
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+        })
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+        </script>
+      <div class="modal-body border border-danger">
+       <div class="jumbotron">
+           <p class="lead">This is a simple hero unit, a simple <a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip on top">jumbotron-style</a> component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg"  role="button" data-toggle="popover" data-placement="top" data-content="It uses utility classes for typography and spacing to space content out within the larger container.">Learn more</a>
+  </p>
+</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+			  <div class="col"> 
+			  
+			  <div class="row">
+				  <div class="col-sm-6">
+					<div class="card" >
+					  <img class="card-img-top rounded-circle" src="img/mic.jpg" alt="Card image cap">
+					  <div class="card-body">
+                          <h5 class="card-title">Singing<span class="badge badge-warning ml-3">NEW</span> </h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Lets Sing</a>
+					</div>
+				</div>
+				  </div>
+				  <div class="col-sm-6">
+					<div class="card" >
+					  <img class="card-img-top" src="img/programming.jpg" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Programming<span class="badge badge-danger ml-3">TRENDING</span></h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary" data-toggle="collapse" data-target="#alert1">Start Coding</a>
+                          <div id="alert1" class=" collapse alert alert-success" role="alert">
+                              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                            </button>
+                                Successfully registered!
+                          </div>
+					  </div>
+				  </div>
+				</div>
+			  </div>
+			  
+			  </div>
+			  </div>
+		  </section>
+		  <br><br><br><br>
+		  <section id="embedsiframes">
+		  <div class=" w-70 h-70 embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+</div>
+		  </section>
+		  
+		   <!--Footer comes below -->
+		      <footer id="footer-main" >
+					<div class="">
+				<div class="">
+					<div class="">
+					<h6>Copyright &copy; 2013 Sabre</h6>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="">
+						<h6>About Us</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!-- end col-sm-2 -->
+					
+					<div class="">
+						<h6>Coded with  BootStrap</h6>
+					</div><!-- end col-sm-2 -->
+				</div><!-- end row -->
+			
+					</div>
+					
+					
+			 </footer>
+		  
+
+</body>
+</html>

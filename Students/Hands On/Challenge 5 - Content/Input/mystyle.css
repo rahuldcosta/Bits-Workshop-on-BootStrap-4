@@ -1,0 +1,29 @@
+
+html,
+body {
+    height: 100%;
+}
+
+#cover {
+    background: #222 url('img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 576px){
+    h1{
+   
+    color: darkorange;
+    }
+}
+
+@media (min-width: 992px){
+    h1{
+   
+    color: greenyellow;
+    }
+}
